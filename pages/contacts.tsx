@@ -9,7 +9,7 @@ const ContactsPage: NextPage = () => {
 			<Meta title='Контакты' metaDesc='Описание страницы контактов' />
 			<FadeIn className='cont'>
 				<main>
-					<h1 className={`text-4xl font-bold`}>Контакты</h1>
+					<h1 className={`text-4xl font-bold mt-20`}>Контакты</h1>
 				</main>
 			</FadeIn>
 			<FadeIn className='cont mb-40'>

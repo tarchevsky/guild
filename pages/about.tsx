@@ -8,7 +8,7 @@ const AboutPage: NextPage = () => {
 			<Meta title='О нас' metaDesc='Дескрипшен страницы' />
 			<FadeIn className='cont'>
 				<main>
-					<h1 className={`text-4xl font-bold`}>О нас</h1>
+					<h1 className={`text-4xl font-bold mt-20`}>О нас</h1>
 				</main>
 			</FadeIn>
 		</>

@@ -8,7 +8,7 @@ const ServicesPage: NextPage = () => {
 			<Meta title='Наши услуги' metaDesc='Дескрипшен страницы' />
 			<FadeIn className='cont'>
 				<main>
-					<h1 className={`text-4xl font-bold`}>Наши услуги</h1>
+					<h1 className={`text-4xl font-bold mt-20`}>Наши услуги</h1>
 				</main>
 			</FadeIn>
 		</>

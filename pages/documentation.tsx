@@ -11,7 +11,7 @@ const Documentation: NextPage = () => {
 			/>
 			<FadeIn className='cont'>
 				<main>
-					<h1 className={`text-4xl font-bold`}>Документация</h1>
+					<h1 className={`text-4xl font-bold mt-20`}>Документация</h1>
 				</main>
 			</FadeIn>
 		</>
