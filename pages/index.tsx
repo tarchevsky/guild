@@ -13,7 +13,7 @@ const HomePage: NextPage = () => {
 				alt='Альт картинки'
 				title='Искусство <br>в интерьер'
 			/>
-			<FadeIn className='cont flex justify-between items-end gap-20 mb-14 mt-[78svh] pt-8'>
+			<FadeIn className='cont flex flex-col md:flex-row justify-between items-end gap-20 mb-14 mt-[85svh] md:mt-[78svh] pt-8'>
 				<h2 className='text-3xl font-extrabold'>
 					Студия художественного дизайна <br></br>guild.moscow
 				</h2>
@@ -40,7 +40,7 @@ const HomePage: NextPage = () => {
 					alt='Ester bar'
 					width={1900}
 					height={900}
-					className='h-[100svh] object-fit'
+					className='h-[100svh] object-cover'
 				/>
 			</FadeIn>
 			<FadeIn className='cont py-8'>
@@ -66,7 +66,7 @@ const HomePage: NextPage = () => {
 					alt='Ester bar 2'
 					width={1900}
 					height={900}
-					className='h-[100svh] object-fit'
+					className='h-[100svh] object-cover'
 				/>
 			</FadeIn>
 			<FadeIn className='cont pt-8'>
@@ -85,7 +85,7 @@ const HomePage: NextPage = () => {
 					alt='Pattern'
 					width={1900}
 					height={900}
-					className='absolute w-full h-full left-0 top-0 object-fit -z-10'
+					className='absolute w-full h-full left-0 top-0 object-cover -z-10'
 				/>
 				<FadeIn className='cont flex flex-col justify-between items-center'>
 					<div className='grid grid-cols-1 md:grid-cols-2 gap-5 mb-8 w-full'>
