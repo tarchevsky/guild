@@ -3,7 +3,6 @@ import Hero from '@/components/hero/Hero'
 import FadeIn from '@/components/fadeIn/FadeIn'
 import Meta from '@/components/meta/Meta'
 import Image from 'next/image'
-import ModernBtn from '@/components/modernBtn/ModernBtn'
 import ModernHeading from '@/components/modernHeading/ModernHeading'
 
 const HomePage: NextPage = () => {
@@ -20,7 +19,7 @@ const HomePage: NextPage = () => {
 				subTitle='“Ester bar” Большая Никитская 22/2'
 			/>
 
-			<FadeIn className='cont pb-8 flex flex-col'>
+			<FadeIn className='cont pb-8'>
 				<p>
 					Студия художественного дизайна guild.moscow – сочетание искусства и
 					дизайна. Наши специалисты изучат ваш объект, и подберут художественное
@@ -33,11 +32,6 @@ const HomePage: NextPage = () => {
 					скорректировать уже готовый дизайн-проект, предоставить стилистические
 					рекомендации и сделать тематические подборки.
 				</p>
-
-				<ModernBtn
-					text='Создать проект'
-					background='linear-gradient(203deg, rgba(85, 1, 1, 0.70) 14.88%, #000 61.37%)'
-				/>
 			</FadeIn>
 			<FadeIn>
 				<Image

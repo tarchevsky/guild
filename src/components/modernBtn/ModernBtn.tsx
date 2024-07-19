@@ -1,5 +1,6 @@
 import styles from './ModernBtn.module.scss'
 import cn from 'clsx'
+import FadeIn from '@/components/fadeIn/FadeIn'
 
 interface ModernBtnProps {
 	text: string
@@ -9,12 +10,19 @@ interface ModernBtnProps {
 
 const ModernBtn = ({ text, className, background }: ModernBtnProps) => {
 	return (
-		<button
-			className={cn(styles.btn, 'btn text-right self-end', className)}
-			style={{ background }}
-		>
-			{text}
-		</button>
+		<FadeIn className='cont flex flex-col'>
+			<button
+				className={cn(
+					styles.btn,
+					'btn self-end w-[400px] h-[170px] md:w-[580px] md:h-[250px] text-xl md:text-[40px]',
+					className
+				)}
+				style={{ background }}
+				dangerouslySetInnerHTML={{
+					__html: text
+				}}
+			/>
+		</FadeIn>
 	)
 }
 
