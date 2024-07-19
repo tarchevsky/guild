@@ -1,6 +1,7 @@
 import styles from './Burger.module.scss'
 import { useState } from 'react'
 import cn from 'clsx'
+import FadeIn from '@/components/fadeIn/FadeIn'
 
 const Burger = ({ toggleMenu, className }: any) => {
 	const [isActive, setIsActive] = useState(false)
@@ -20,13 +21,13 @@ const Burger = ({ toggleMenu, className }: any) => {
 			aria-label='Open the menu'
 			onClick={toggleIsActive}
 		>
-			<div
+			<FadeIn
 				className={`${styles.inner} ${isActive ? styles.active : ''} relative z-20 top-0 start-0 h-full`}
 			>
 				<div></div>
 				<div></div>
 				<div></div>
-			</div>
+			</FadeIn>
 		</button>
 	)
 }
