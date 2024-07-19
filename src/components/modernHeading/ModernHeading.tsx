@@ -9,9 +9,9 @@ interface ModernHeadingProps {
 
 const ModernHeading = ({ title, subTitle }: ModernHeadingProps) => {
 	return (
-		<FadeIn className='cont flex flex-col md:flex-row justify-between items-end gap-20 mb-14 mt-[85svh] md:mt-[82svh] pt-8'>
+		<FadeIn className='cont flex flex-col md:flex-row justify-between md:items-end gap-20 mb-14 mt-[92svh] pt-8 md:mt-[82svh]'>
 			<h2
-				className={cn(styles.h2)}
+				className={cn(styles.h2, 'text-2xl md:text-4xl')}
 				dangerouslySetInnerHTML={{
 					__html: title
 				}}
