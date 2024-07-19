@@ -25,21 +25,12 @@ const HeaderMini = () => {
 		<header
 			className={cn(
 				styles.header,
-				'relative flex flex-col justify-center md:justify-between items-center py-4 z-40'
+				'relative flex flex-col justify-center md:justify-between items-center pt-[66px] pb-[55px] md:pt-[76px] z-40'
 			)}
 		>
-			<FadeIn className='block md:hidden'>
+			<FadeIn className='block'>
 				<Link href='/' className={cn(styles.logo)}>
 					гильдия.москва
-				</Link>
-			</FadeIn>
-			<FadeIn className='hidden md:grid md:grid-cols-3 md:justify-between md:w-full'>
-				<Link href='mailto:guild.moscow@yandex.ru'>guild.moscow@yandex.ru</Link>
-				<Link href='/' className={cn(styles.logo)}>
-					гильдия.москва
-				</Link>
-				<Link href='tel:+79031700586' className='justify-self-end'>
-					7 903 170 05 86
 				</Link>
 			</FadeIn>
 			<FadeIn className='w-full'>
@@ -47,7 +38,7 @@ const HeaderMini = () => {
 					className={cn(
 						styles.nav,
 						{ [styles.active]: isMenuActive },
-						'fixed z-10 w-full h-full md:w-full md:h-auto end-0 bottom-0 -translate-y-full opacity-0 transition-all duration-300 ease-out'
+						'fixed z-10 w-full h-full end-0 bottom-0 -translate-y-full opacity-0 transition-all duration-300 ease-out'
 					)}
 				>
 					<ul
@@ -123,7 +114,7 @@ const HeaderMini = () => {
 				</nav>
 			</FadeIn>
 
-			<Burger toggleMenu={toggleMenu} />
+			<Burger toggleMenu={toggleMenu} className='bottom-0' />
 		</header>
 	)
 }

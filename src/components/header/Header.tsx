@@ -25,7 +25,7 @@ const Header = () => {
 		<header
 			className={cn(
 				styles.header,
-				'relative flex flex-col justify-center md:justify-between items-center py-4 z-40'
+				'relative flex flex-col justify-center md:justify-between items-center py-[66px] md:pt-[32px] md:pb-[18px] z-40'
 			)}
 		>
 			<FadeIn className='block md:hidden'>
@@ -35,7 +35,7 @@ const Header = () => {
 			</FadeIn>
 			<FadeIn className='hidden md:grid md:grid-cols-3 md:justify-between md:w-full'>
 				<Link href='mailto:guild.moscow@yandex.ru'>guild.moscow@yandex.ru</Link>
-				<Link href='/' className={cn(styles.logo)}>
+				<Link href='/' className={cn(styles.logo, 'pt-[76px] pb-[55px]')}>
 					гильдия.москва
 				</Link>
 				<Link href='tel:+79031700586' className='justify-self-end'>
