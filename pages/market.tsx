@@ -4,7 +4,7 @@ import PageHeading from '@/components/pageHeading/PageHeading'
 
 const title = 'Маркет'
 const background =
-	'linear-gradient(211deg, rgba(78, 84, 11, 0.63) 1.54%, #000 62.13%)'
+	'linear-gradient(211deg, rgba(12, 119, 106, 0.70) 1.54%, #000 69.7%)'
 
 const Market: NextPage = () => {
 	return (

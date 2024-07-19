@@ -4,7 +4,7 @@ import PageHeading from '@/components/pageHeading/PageHeading'
 
 const title = 'Проекты'
 const background =
-	'linear-gradient(211deg, rgba(78, 84, 11, 0.63) 1.54%, #000 62.13%)'
+	'linear-gradient(211deg, rgba(128, 95, 66, 0.70) 1.59%, #000 71.81%)'
 
 const Projects: NextPage = () => {
 	return (
