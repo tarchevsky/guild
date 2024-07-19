@@ -79,13 +79,6 @@ const HomePage: NextPage = () => {
 				<h4 className='uppercase text-[54px] md:text-[110px]'>Проекты</h4>
 			</FadeIn>
 			<div className='relative w-full py-8'>
-				<Image
-					src='/pattern.png'
-					alt='Pattern'
-					width={1900}
-					height={900}
-					className='absolute w-full h-full left-0 top-0 object-cover -z-10'
-				/>
 				<FadeIn className='cont flex flex-col justify-between items-center'>
 					<div className='grid grid-cols-1 md:grid-cols-2 gap-5 mb-8 w-full'>
 						<Image
