@@ -3,7 +3,6 @@ import cn from 'clsx'
 import styles from './Header.module.scss'
 import Burger from '@/components/burger/Burger'
 import { useEffect, useState } from 'react'
-import ThemeToggle from '@/components/themeToggle/ThemeToggle'
 import '@fontsource/allison'
 import '@fontsource-variable/noto-serif'
 import FadeIn from '@/components/fadeIn/FadeIn'
@@ -23,18 +22,25 @@ const Header = () => {
 	}, [isMenuActive])
 
 	return (
-		<header className='relative flex flex-col justify-center md:justify-between items-center py-4 z-40'>
+		<header
+			className={cn(
+				styles.header,
+				'relative flex flex-col justify-center md:justify-between items-center py-4 z-40'
+			)}
+		>
 			<FadeIn className='block md:hidden'>
 				<Link href='/' className={cn(styles.logo)}>
-					guild.moscow
+					гильдия.москва
 				</Link>
 			</FadeIn>
-			<FadeIn className='hidden md:flex md:justify-between md:w-full'>
+			<FadeIn className='hidden md:grid md:grid-cols-3 md:justify-between md:w-full'>
 				<Link href='mailto:guild.moscow@yandex.ru'>guild.moscow@yandex.ru</Link>
 				<Link href='/' className={cn(styles.logo)}>
-					guild.moscow
+					гильдия.москва
 				</Link>
-				<Link href='tel:+79031700586'>7 (903) 170 05 86</Link>
+				<Link href='tel:+79031700586' className='justify-self-end'>
+					7 903 170 05 86
+				</Link>
 			</FadeIn>
 			<FadeIn className='w-full'>
 				<nav
