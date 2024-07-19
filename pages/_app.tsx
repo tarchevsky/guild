@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react'
 import { AnimatePresence } from 'framer-motion'
 import PageTransition from '@/components/pageTransition/PageTransition'
 import SecondaryLayout from '@/components/secondaryLayout/SecondaryLayout'
+import RegularLayout from '@/components/regularLayout/RegularLayout'
 
 export default function App({ Component, pageProps, router }: AppProps) {
 	const [isClient, setIsClient] = useState(false)
@@ -18,7 +19,12 @@ export default function App({ Component, pageProps, router }: AppProps) {
 		return null // Или можно вернуть загрузочный экран, пока клиент не инициализирован
 	}
 
-	const Layout = pageProps.layout === 'secondary' ? SecondaryLayout : MainLayout
+	const Layout =
+		pageProps.layout === 'main'
+			? MainLayout
+			: pageProps.layout === 'secondary'
+				? SecondaryLayout
+				: RegularLayout
 
 	return (
 		<AnimatePresence>

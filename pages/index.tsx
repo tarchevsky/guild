@@ -132,4 +132,12 @@ const HomePage: NextPage = () => {
 	)
 }
 
+export async function getStaticProps() {
+	return {
+		props: {
+			layout: 'main' // Укажите нужный layout здесь
+		}
+	}
+}
+
 export default HomePage
