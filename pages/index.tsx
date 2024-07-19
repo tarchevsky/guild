@@ -3,6 +3,8 @@ import Hero from '@/components/hero/Hero'
 import FadeIn from '@/components/fadeIn/FadeIn'
 import Meta from '@/components/meta/Meta'
 import Image from 'next/image'
+import ModernBtn from '@/components/modernBtn/ModernBtn'
+import ModernHeading from '@/components/modernHeading/ModernHeading'
 
 const HomePage: NextPage = () => {
 	return (
@@ -13,26 +15,29 @@ const HomePage: NextPage = () => {
 				alt='Альт картинки'
 				title='Искусство <br>в интерьер'
 			/>
-			<FadeIn className='cont flex flex-col md:flex-row justify-between items-end gap-20 mb-14 mt-[85svh] md:mt-[78svh] pt-8'>
-				<h2 className='text-3xl font-extrabold'>
-					Студия художественного дизайна <br></br>guild.moscow
-				</h2>
-				<p>“Ester bar” Большая Никитская 22/2</p>
-			</FadeIn>
-			<FadeIn className='cont pb-8'>
+			<ModernHeading
+				title='Студия художественного дизайна <br /><span style="text-transform: uppercase;">гильдия.москва</span>'
+				subTitle='“Ester bar” Большая Никитская 22/2'
+			/>
+
+			<FadeIn className='cont pb-8 flex flex-col'>
 				<p>
 					Студия художественного дизайна guild.moscow – сочетание искусства и
 					дизайна. Наши специалисты изучат ваш объект, и подберут художественное
 					дополнение. У нас вы можете заказать разработку уникального
 					художественного оформления. В разделе “Галерея” Вы можете выбрать из
 					готовых художественных решений.
-				</p>
-
-				<p>
+					<br />
+					<br />
 					Также мы предоставляем консультации по тематике нашей фирмы, мы можем
 					скорректировать уже готовый дизайн-проект, предоставить стилистические
 					рекомендации и сделать тематические подборки.
 				</p>
+
+				<ModernBtn
+					text='Создать проект'
+					background='linear-gradient(203deg, rgba(85, 1, 1, 0.70) 14.88%, #000 61.37%)'
+				/>
 			</FadeIn>
 			<FadeIn>
 				<Image
