@@ -39,7 +39,7 @@ const Header = () => {
 					гильдия.москва
 				</Link>
 				<Link href='tel:+79031700586' className='justify-self-end'>
-					7 903 170 05 86
+					+7 903 170 05 86
 				</Link>
 			</FadeIn>
 			<FadeIn className='w-full'>
