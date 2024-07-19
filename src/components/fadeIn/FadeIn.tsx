@@ -1,9 +1,9 @@
-import { motion, useAnimation } from 'framer-motion'
+import { motion, MotionStyle, useAnimation } from 'framer-motion'
 import { useEffect, useRef } from 'react'
 import cn from 'clsx'
 import { LayoutProps } from '@/types'
 
-const FadeIn = ({ children, className, delay = 0.2 }: LayoutProps) => {
+const FadeIn = ({ children, className, delay = 0.2, style }: LayoutProps) => {
 	const controls = useAnimation()
 	const ref = useRef<HTMLDivElement | null>(null)
 
@@ -41,6 +41,7 @@ const FadeIn = ({ children, className, delay = 0.2 }: LayoutProps) => {
 				hidden: { opacity: 0, y: 20 } // Начальное положение элемента перед анимацией
 			}}
 			className={cn(className)}
+			style={style as MotionStyle}
 		>
 			{children}
 		</motion.div>

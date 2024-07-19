@@ -7,12 +7,15 @@ export interface MetaProps {
 	metaDesc?: string
 }
 
-// Layout.tsx + FadeIn.tsx
+// MainLayout.tsx, SecondLayout.tsx + FadeIn.tsx
 
 export interface LayoutProps {
 	children: ReactNode
 	className?: string
 	delay?: number
+	style?: {
+		background: string
+	}
 }
 
 // Hero.tsx

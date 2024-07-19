@@ -1,19 +1,19 @@
 import { NextPage } from 'next'
-import FadeIn from '@/components/fadeIn/FadeIn'
 import Meta from '@/components/meta/Meta'
+import PageHeading from '@/components/pageHeading/PageHeading'
+
+const title = 'Наши услуги'
+const background =
+	'linear-gradient(211deg, rgba(78, 84, 11, 0.63) 1.54%, #000 62.13%)'
 
 const Services: NextPage = () => {
 	return (
 		<>
 			<Meta
-				title='Наши услуги'
+				title={title}
 				metaDesc='Здесь вы можете ознакомиться с нашими услугами'
 			/>
-			<FadeIn className='cont'>
-				<main>
-					<h1 className={`text-4xl font-bold mt-20`}>Наши услуги</h1>
-				</main>
-			</FadeIn>
+			<PageHeading title={title} background={background} />
 		</>
 	)
 }
