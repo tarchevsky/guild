@@ -7,7 +7,7 @@ export interface MetaProps {
 	metaDesc?: string
 }
 
-// MainLayout.tsx, SecondLayout.tsx + FadeIn.tsx
+// MainLayout.tsx, SecondaryLayout.tsx + FadeIn.tsx
 
 export interface LayoutProps {
 	children: ReactNode

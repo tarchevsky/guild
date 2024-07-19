@@ -2,7 +2,7 @@ import styles from './Burger.module.scss'
 import { useState } from 'react'
 import cn from 'clsx'
 
-const Burger = ({ toggleMenu }: any) => {
+const Burger = ({ toggleMenu, className }: any) => {
 	const [isActive, setIsActive] = useState(false)
 	const toggleIsActive = () => {
 		setIsActive(!isActive)
@@ -14,7 +14,8 @@ const Burger = ({ toggleMenu }: any) => {
 		<button
 			className={cn(
 				styles.burger,
-				'block md:hidden absolute w-[30px] h-[20px] -bottom-10 inset-x-1/2 -translate-x-1/2 cursor-pointer z-20'
+				'block absolute w-[30px] h-[20px] -bottom-10 inset-x-1/2 -translate-x-1/2 cursor-pointer z-20',
+				className
 			)}
 			aria-label='Open the menu'
 			onClick={toggleIsActive}

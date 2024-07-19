@@ -5,7 +5,7 @@ import { LayoutProps } from '@/types'
 import '@fontsource-variable/roboto-slab'
 import '@fontsource/yeseva-one'
 
-const Layout = ({ children }: LayoutProps) => {
+const MainLayout = ({ children }: LayoutProps) => {
 	return (
 		<>
 			<div className='cont'>
@@ -21,4 +21,4 @@ const Layout = ({ children }: LayoutProps) => {
 	)
 }
 
-export default Layout
+export default MainLayout

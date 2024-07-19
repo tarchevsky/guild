@@ -18,4 +18,12 @@ const Services: NextPage = () => {
 	)
 }
 
+export async function getStaticProps() {
+	return {
+		props: {
+			layout: 'secondary' // Укажите нужный layout здесь
+		}
+	}
+}
+
 export default Services

@@ -1,13 +1,13 @@
 import Link from 'next/link'
 import cn from 'clsx'
-import styles from './Header.module.scss'
+import styles from './HeaderMini.module.scss'
 import Burger from '@/components/burger/Burger'
 import { useEffect, useState } from 'react'
 import '@fontsource/allison'
 import '@fontsource-variable/noto-serif'
 import FadeIn from '@/components/fadeIn/FadeIn'
 
-const Header = () => {
+const HeaderMini = () => {
 	const [isMenuActive, setIsMenuActive] = useState(false)
 	const toggleMenu = () => {
 		setIsMenuActive(!isMenuActive)
@@ -47,12 +47,12 @@ const Header = () => {
 					className={cn(
 						styles.nav,
 						{ [styles.active]: isMenuActive },
-						'fixed md:static z-10 w-full h-full md:w-full md:h-auto end-0 bottom-0 -translate-y-full md:translate-y-0 opacity-0 md:opacity-100 transition-all duration-300 ease-out'
+						'fixed z-10 w-full h-full md:w-full md:h-auto end-0 bottom-0 -translate-y-full opacity-0 transition-all duration-300 ease-out'
 					)}
 				>
 					<ul
 						tabIndex={0}
-						className='absolute md:static menu flex-nowrap gap-5 md:menu-horizontal md:justify-between md:w-full start-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 md:translate-y-0 md:translate-x-0'
+						className='absolute menu flex-nowrap gap-5 start-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 '
 					>
 						<li
 							className={cn(
@@ -123,9 +123,9 @@ const Header = () => {
 				</nav>
 			</FadeIn>
 
-			<Burger toggleMenu={toggleMenu} className='md:hidden' />
+			<Burger toggleMenu={toggleMenu} />
 		</header>
 	)
 }
 
-export default Header
+export default HeaderMini

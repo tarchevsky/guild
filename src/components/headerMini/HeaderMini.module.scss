@@ -1,0 +1,24 @@
+.active {
+    opacity: 1;
+    @apply bg-base-100;
+    transform: translateY(0);
+
+    .item {
+        opacity: 1;
+    }
+}
+
+.logo {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    line-height: normal;
+}
+
+
+.nav {
+    font-family: 'Noto Serif Variable', serif;
+    text-transform: lowercase;
+}
