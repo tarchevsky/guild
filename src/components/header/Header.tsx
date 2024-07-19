@@ -75,9 +75,9 @@ const Header = () => {
 						>
 							<Link
 								className='px-[10px] btn btn-ghost font-normal'
-								href='/about'
+								href='/consultations'
 							>
-								О проекте
+								Консультации
 							</Link>
 						</li>
 						<li
@@ -88,9 +88,22 @@ const Header = () => {
 						>
 							<Link
 								className='px-[10px] btn btn-ghost font-normal'
-								href='/documentation'
+								href='/market'
 							>
-								Документация
+								Маркет
+							</Link>
+						</li>
+						<li
+							className={cn(
+								styles.item,
+								'block text-center opacity-0 md:opacity-100'
+							)}
+						>
+							<Link
+								className='px-[10px] btn btn-ghost font-normal'
+								href='/projects'
+							>
+								Проекты
 							</Link>
 						</li>
 						<li
