@@ -1,6 +1,7 @@
 import { NextPage } from 'next'
 import Meta from '@/components/meta/Meta'
 import PageHeading from '@/components/pageHeading/PageHeading'
+import ModernBtn from '@/components/modernBtn/ModernBtn'
 
 const title = 'Наши услуги'
 const background =
@@ -13,6 +14,7 @@ const Services: NextPage = () => {
 				title={title}
 				metaDesc='Здесь вы можете ознакомиться с нашими услугами'
 			/>
+			<ModernBtn text='связаться с нами' background={background} />
 			<PageHeading title={title} background={background} />
 		</>
 	)
