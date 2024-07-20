@@ -15,7 +15,7 @@ const Hero = ({ title, buttonText, alt, subtitle, src }: HeroProps) => {
 					className='absolute top-0 left-0 w-full h-full object-cover object-center'
 				/>
 				<h1
-					className='absolute top-1/2 -translate-y-1/2 md:right-20 cont md:p-0 font-normal md:leading-[120px] uppercase text-[54px] md:text-[110px]'
+					className='absolute top-1/2 -translate-y-1/2 md:right-20 cont md:p-0 font-normal md:leading-[120px] uppercase text-[54px] xl:text-[110px]'
 					dangerouslySetInnerHTML={{
 						__html: title
 					}}
