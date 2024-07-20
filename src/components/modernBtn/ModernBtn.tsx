@@ -14,7 +14,7 @@ const ModernBtn = ({ text, className, background }: ModernBtnProps) => {
 			<button
 				className={cn(
 					styles.btn,
-					'btn self-end w-[400px] h-[170px] md:w-[580px] md:h-[250px] text-xl md:text-[40px]',
+					'btn self-end w-[400px] h-[170px] 2xl:w-[580px] 2xl:h-[250px] text-xl 2xl:text-[40px]',
 					className
 				)}
 				style={{ background }}
