@@ -9,15 +9,12 @@ const title = 'Контакты'
 const background =
 	'linear-gradient(211deg, rgba(85, 1, 1, 0.70) 1.54%, #000 69.7%)'
 
-const ContactsPage: NextPage = () => {
+const Contacts: NextPage = () => {
 	return (
 		<>
 			<Meta title={title} metaDesc='Описание страницы контактов' />
 			<PageHeading title={title} background={background} />
 			<ModernBtn text='Связаться с нами' background={background} />
-			<FadeIn className='cont mb-40'>
-				<ContactForm />
-			</FadeIn>
 		</>
 	)
 }
@@ -30,4 +27,4 @@ export async function getStaticProps() {
 	}
 }
 
-export default ContactsPage
+export default Contacts
