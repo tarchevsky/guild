@@ -122,3 +122,9 @@ export interface ImgTextProps {
 	description: string
 	projectName: string
 }
+
+// mapContent.tsx
+
+export interface MapContentProps {
+	projectsData: ImgTextProps[]
+}
