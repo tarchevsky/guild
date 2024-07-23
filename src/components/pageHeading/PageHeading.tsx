@@ -1,14 +1,16 @@
 import FadeIn from '@/components/fadeIn/FadeIn'
+import cn from 'clsx'
 
 interface PageHeadingProps {
 	title: string
 	background: string
+	className?: string
 }
 
-const PageHeading = ({ title, background }: PageHeadingProps) => {
+const PageHeading = ({ title, background, className }: PageHeadingProps) => {
 	return (
 		<FadeIn
-			className='cont absolute top-0 left-0 w-full h-[100svh]'
+			className={cn('cont absolute top-0 left-0 w-full h-[100svh]', className)}
 			style={{ background: `${background}` }}
 		>
 			<main>

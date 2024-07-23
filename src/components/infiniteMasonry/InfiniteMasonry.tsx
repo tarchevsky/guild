@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import cn from 'clsx'
 import styles from './InfiniteMasonry.module.scss'
 import { MasonryProps } from '@/types'
