@@ -111,3 +111,14 @@ export interface ImageItem {
 export interface MasonryProps {
 	images: ImageItem[]
 }
+
+// imgText.tsx
+
+export interface ImgTextProps {
+	link: string
+	src: string
+	alt: string
+	className?: string
+	description: string
+	projectName: string
+}
