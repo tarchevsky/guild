@@ -7,6 +7,7 @@ import { AnimatePresence } from 'framer-motion'
 import PageTransition from '@/components/pageTransition/PageTransition'
 import SecondaryLayout from '@/components/secondaryLayout/SecondaryLayout'
 import RegularLayout from '@/components/regularLayout/RegularLayout'
+import Metrika from '@/components/metrika/Metrika'
 
 export default function App({ Component, pageProps, router }: AppProps) {
 	const [isClient, setIsClient] = useState(false)
@@ -27,12 +28,15 @@ export default function App({ Component, pageProps, router }: AppProps) {
 				: RegularLayout
 
 	return (
-		<AnimatePresence>
-			<PageTransition key={router.route}>
-				<Layout>
-					<Component {...pageProps} />
-				</Layout>
-			</PageTransition>
-		</AnimatePresence>
+		<>
+			<AnimatePresence>
+				<PageTransition key={router.route}>
+					<Layout>
+						<Component {...pageProps} />
+					</Layout>
+				</PageTransition>
+			</AnimatePresence>
+			<Metrika yId='97927647' />
+		</>
 	)
 }

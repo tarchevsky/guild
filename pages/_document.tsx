@@ -1,6 +1,4 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-import Metrika from '@/components/metrika/Metrika'
-import Script from 'next/script'
 
 export default function Document() {
 	return (
@@ -9,7 +7,6 @@ export default function Document() {
 			<body>
 				<Main />
 				<NextScript />
-				<Metrika yId='97927647' />
 			</body>
 		</Html>
 	)
