@@ -8,7 +8,7 @@ export default function Document() {
 			<body>
 				<Main />
 				<NextScript />
-				<Metrika yId={97927647} />
+				<Metrika yId='97927647' />
 			</body>
 		</Html>
 	)
