@@ -9,6 +9,8 @@ import SecondaryLayout from '@/components/secondaryLayout/SecondaryLayout'
 import RegularLayout from '@/components/regularLayout/RegularLayout'
 import Metrika from '@/components/metrika/Metrika'
 
+const yId = process.env.NEXT_PUBLIC_YID // id яндекс метрики
+
 export default function App({ Component, pageProps, router }: AppProps) {
 	const [isClient, setIsClient] = useState(false)
 
@@ -36,7 +38,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
 					</Layout>
 				</PageTransition>
 			</AnimatePresence>
-			<Metrika yId='97927647' />
+			{yId ? <Metrika yId={yId} /> : null}
 		</>
 	)
 }
