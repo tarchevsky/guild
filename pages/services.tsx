@@ -16,7 +16,7 @@ const Services: NextPage = () => {
 				metaDesc='Здесь вы можете ознакомиться с нашими услугами'
 			/>
 			<PageHeading title={title} background={background} />
-			<div className='relative -z-10 cont mt-[32svh] text-2xl xl:text-3xl 2xl:text-4xl'>
+			<div className='relative z-10 cont mt-[32svh] text-2xl xl:text-3xl 2xl:text-4xl'>
 				<ul className='flex flex-col gap-y-5 list-disc pl-7 pb-10'>
 					<li>
 						Дизайн-проект.
