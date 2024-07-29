@@ -4,7 +4,7 @@ import FadeIn from '@/components/fadeIn/FadeIn'
 import Meta from '@/components/meta/Meta'
 import Image from 'next/image'
 import ModernHeading from '@/components/modernHeading/ModernHeading'
-import Link from 'next/link'
+import Button from '@/components/button/Button'
 
 const HomePage: NextPage = () => {
 	return (
@@ -111,12 +111,13 @@ const HomePage: NextPage = () => {
 							className='w-full h-full'
 						/>
 					</div>
-					<Link
+					<Button
+						tag='link'
 						href='/projects'
-						className='btn btn-outline btn-xs sm:btn-sm md:btn-lg text-center'
-					>
-						Смотреть все проекты
-					</Link>
+						ariaLabel='Кнопка на страницу Проекты'
+						text='Смотреть все проекты'
+						className='btn-outline btn-xs sm:btn-sm md:btn-lg text-center'
+					/>
 				</FadeIn>
 			</div>
 		</>

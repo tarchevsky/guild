@@ -1,3 +1,4 @@
+import { Url } from 'next/dist/shared/lib/router/router'
 import { ReactNode } from 'react'
 
 // Metrika.tsx
@@ -11,6 +12,18 @@ export interface MetrikaProps {
 export interface MetaProps {
 	title?: string
 	metaDesc?: string
+}
+
+// Button.tsx
+
+export interface ButtonProps {
+	tag: 'button' | 'link'
+	type?: 'button' | 'submit'
+	text: string
+	ariaLabel: string
+	href?: Url | string
+	className?: string
+	modalContent?: string | ReactNode
 }
 
 // MainLayout.tsx, SecondaryLayout.tsx, RegularLayout.tsx + FadeIn.tsx
