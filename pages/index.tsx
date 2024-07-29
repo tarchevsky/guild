@@ -4,6 +4,7 @@ import FadeIn from '@/components/fadeIn/FadeIn'
 import Meta from '@/components/meta/Meta'
 import Image from 'next/image'
 import ModernHeading from '@/components/modernHeading/ModernHeading'
+import Link from 'next/link'
 
 const HomePage: NextPage = () => {
 	return (
@@ -110,9 +111,12 @@ const HomePage: NextPage = () => {
 							className='w-full h-full'
 						/>
 					</div>
-					<button className='btn btn-outline btn-xs sm:btn-sm md:btn-lg text-center'>
+					<Link
+						href='/projects'
+						className='btn btn-outline btn-xs sm:btn-sm md:btn-lg text-center'
+					>
 						Смотреть все проекты
-					</button>
+					</Link>
 				</FadeIn>
 			</div>
 		</>
