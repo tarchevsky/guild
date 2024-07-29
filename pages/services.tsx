@@ -90,7 +90,7 @@ const Services: NextPage = () => {
 						</li>
 					</ul>
 				</ul>
-			</div>
+			</FadeIn>
 			<ModernBtn text='связаться с нами' background={background} />
 		</>
 	)
