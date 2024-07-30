@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { useForm, SubmitHandler } from 'react-hook-form'
+import Modal from '@/components/modal/Modal'
 
 interface IFormInput {
 	name: string
@@ -115,18 +116,10 @@ export default function ContactForm() {
 				</button>
 			</form>
 
-			<dialog id='my_modal_1' ref={modalRef} className='modal'>
-				<div className='modal-box'>
-					<p className='py-4'>
-						Ваше обращение отправлено! Спасибо за проявленный интерес!
-					</p>
-					<div className='modal-action'>
-						<form method='dialog'>
-							<button className='btn'>Закрыть</button>
-						</form>
-					</div>
-				</div>
-			</dialog>
+			<Modal
+				ref={modalRef}
+				message='Ваше обращение отправлено! Спасибо за проявленный интерес!'
+			/>
 		</>
 	)
 }

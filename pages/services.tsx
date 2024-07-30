@@ -91,7 +91,13 @@ const Services: NextPage = () => {
 					</ul>
 				</ul>
 			</FadeIn>
-			<ModernBtn text='связаться с нами' background={background} />
+			<ModernBtn
+				tag='link'
+				text='связаться с нами'
+				href='/contacts'
+				ariaLabel='Кнопка перехода на страницу Контакты'
+				background={background}
+			/>
 		</>
 	)
 }

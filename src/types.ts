@@ -26,6 +26,12 @@ export interface ButtonProps {
 	modalContent?: string | ReactNode
 }
 
+// ModernBtn.tsx
+
+export interface ModernBtnProps extends ButtonProps {
+	background: string
+}
+
 // MainLayout.tsx, SecondaryLayout.tsx, RegularLayout.tsx + FadeIn.tsx
 
 export interface LayoutProps {

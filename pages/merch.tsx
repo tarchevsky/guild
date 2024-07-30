@@ -11,7 +11,12 @@ const Merch: NextPage = () => {
 	return (
 		<>
 			<Meta title={title} metaDesc='Страница товара Мерч' />
-			<ModernBtn text='заказать' background={background} />
+			<ModernBtn
+				tag='button'
+				text='заказать'
+				ariaLabel='Кнопка вызова форма обратной связи в модальном окне'
+				background={background}
+			/>
 			<PageHeading title={title} background={background} />
 		</>
 	)

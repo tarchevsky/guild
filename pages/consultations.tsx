@@ -2,8 +2,8 @@ import { NextPage } from 'next'
 import Meta from '@/components/meta/Meta'
 import PageHeading from '@/components/pageHeading/PageHeading'
 import ModernBtn from '@/components/modernBtn/ModernBtn'
-import Link from 'next/link'
 import FadeIn from '@/components/fadeIn/FadeIn'
+import ContactForm from '@/components/contactForm/ContactForm'
 
 const title = 'Консультации'
 const background =
@@ -35,9 +35,12 @@ const ConsultationsPage: NextPage = () => {
 				</p>
 			</FadeIn>
 			<ModernBtn
+				tag='button'
 				text='заказать <br />консультацию'
+				ariaLabel='Кнопка вызова модального окна с формой обратной связи'
 				background={background}
 				className='my-[5svh] xl:-mt-[15svh] z-10'
+				modalContent={<ContactForm />}
 			/>
 		</>
 	)
