@@ -40,7 +40,7 @@ const ConsultationsPage: NextPage = () => {
 				ariaLabel='Кнопка вызова модального окна с формой обратной связи'
 				background={background}
 				className='my-[5svh] xl:-mt-[15svh] z-10'
-				modalContent={<ContactForm />}
+				modalContent={<ContactForm title={title} />}
 			/>
 		</>
 	)

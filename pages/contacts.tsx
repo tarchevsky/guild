@@ -51,7 +51,7 @@ const Contacts: NextPage = () => {
 				ariaLabel='Кнопка вызова модального окна с формой обратной связи'
 				background={background}
 				className='mt-[10svh] md:mt-0 xl:-mt-[19svh] z-10'
-				modalContent={<ContactForm />}
+				modalContent={<ContactForm title={title} />}
 			/>
 			<Modal ref={modalRef} message='Это сообщение в модальном окне!' />
 		</>

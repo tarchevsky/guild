@@ -2,7 +2,7 @@ import nodemailer from 'nodemailer'
 
 export default async function handler(req, res) {
 	if (req.method === 'POST') {
-		const { name, email, phone, message } = req.body
+		const { name, email, phone, message, title } = req.body
 
 		const transporter = nodemailer.createTransport({
 			host: process.env.FORM_HOST,
@@ -18,8 +18,8 @@ export default async function handler(req, res) {
 			await transporter.sendMail({
 				from: process.env.FORM_USER,
 				to: process.env.FORM_TO,
-				subject: `Заявка с сайта`,
-				text: `Имя: ${name}\nПочта: ${email}\nТелефон: ${phone}\nСообщение: ${message}`
+				subject: `Заявка с сайта guild.moscow`,
+				text: `Страница: ${title}\nИмя: ${name}\nПочта: ${email}\nТелефон: ${phone}\nСообщение: ${message}`
 			})
 			res.status(200).json({ success: true })
 		} catch (error) {

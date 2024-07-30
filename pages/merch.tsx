@@ -17,7 +17,7 @@ const Merch: NextPage = () => {
 				text='заказать'
 				ariaLabel='Кнопка вызова форма обратной связи в модальном окне'
 				background={background}
-				modalContent={<ContactForm />}
+				modalContent={<ContactForm title={title} />}
 			/>
 			<PageHeading title={title} background={background} />
 		</>

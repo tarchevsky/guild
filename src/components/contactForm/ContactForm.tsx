@@ -2,6 +2,10 @@ import { useEffect, useRef } from 'react'
 import { useForm, SubmitHandler } from 'react-hook-form'
 import Modal from '@/components/modal/Modal'
 
+interface IContactFormProps {
+	title: string
+}
+
 interface IFormInput {
 	name: string
 	email: string
@@ -9,7 +13,7 @@ interface IFormInput {
 	message: string
 }
 
-export default function ContactForm() {
+export default function ContactForm({ title }: IContactFormProps) {
 	const {
 		register,
 		handleSubmit,
@@ -54,7 +58,7 @@ export default function ContactForm() {
 			headers: {
 				'Content-Type': 'application/json'
 			},
-			body: JSON.stringify(data)
+			body: JSON.stringify({ ...data, title })
 		})
 
 		const result = await res.json()

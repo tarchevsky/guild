@@ -17,7 +17,7 @@ const MirrorTwo: NextPage = () => {
 				text='заказать'
 				ariaLabel='Кнопка вызывающая форму обратной связи с попапе'
 				background={background}
-				modalContent={<ContactForm />}
+				modalContent={<ContactForm title={title} />}
 			/>
 			<PageHeading title={title} background={background} />
 		</>
