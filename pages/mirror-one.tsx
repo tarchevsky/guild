@@ -2,6 +2,7 @@ import { NextPage } from 'next'
 import Meta from '@/components/meta/Meta'
 import PageHeading from '@/components/pageHeading/PageHeading'
 import ModernBtn from '@/components/modernBtn/ModernBtn'
+import ContactForm from '@/components/contactForm/ContactForm'
 
 const title = 'Зеркало I'
 const background =
@@ -11,7 +12,13 @@ const MirrorOne: NextPage = () => {
 	return (
 		<>
 			<Meta title={title} metaDesc='Страница товара Зеркало I' />
-			<ModernBtn text='заказать' background={background} />
+			<ModernBtn
+				tag='button'
+				text='заказать'
+				ariaLabel='Кнопка вызывающая форму обратной связи с попапе'
+				background={background}
+				modalContent={<ContactForm />}
+			/>
 			<PageHeading title={title} background={background} />
 		</>
 	)

@@ -2,6 +2,7 @@ import { NextPage } from 'next'
 import Meta from '@/components/meta/Meta'
 import PageHeading from '@/components/pageHeading/PageHeading'
 import ModernBtn from '@/components/modernBtn/ModernBtn'
+import ContactForm from '@/components/contactForm/ContactForm'
 
 const title = 'Мерч'
 const background =
@@ -16,6 +17,7 @@ const Merch: NextPage = () => {
 				text='заказать'
 				ariaLabel='Кнопка вызова форма обратной связи в модальном окне'
 				background={background}
+				modalContent={<ContactForm />}
 			/>
 			<PageHeading title={title} background={background} />
 		</>
