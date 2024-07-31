@@ -6,10 +6,16 @@ import Image from 'next/image'
 import ModernHeading from '@/components/modernHeading/ModernHeading'
 import Button from '@/components/button/Button'
 
+const title = 'Главная'
+const metaDesc = 'Описание страницы'
+
 const HomePage: NextPage = () => {
 	return (
 		<>
-			<Meta title='Главная' metaDesc='Описание страницы' />
+			<Meta
+				title={`${title} страница сайта guild.moscow`}
+				metaDesc={metaDesc}
+			/>
 			<Hero
 				src='/main-img.png'
 				alt='Альт картинки'
