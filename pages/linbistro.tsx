@@ -12,7 +12,7 @@ const Linbistro: NextPage = () => {
 		<>
 			<Meta title={title} metaDesc='Страница проекта Linbistro' />
 			<PageHeading title={title} background={background} />
-			<FadeIn className='mt-[29.5svh]'>
+			<FadeIn className='mt-[13svh] md:mt-[29.5svh]'>
 				<Image
 					src='/linbistro-1.png'
 					alt='Первая картинка из портфолио для Linbistro'
