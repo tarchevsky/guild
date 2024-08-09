@@ -6,7 +6,10 @@ import styles from './Footer.module.scss'
 const Footer = () => {
 	return (
 		<footer className='footer footer-center p-10 gap-y-1'>
-			<Link href='/' className={cn(styles.logo, 'md:mb-20')}>
+			<Link
+				href='/'
+				className={cn(styles.logo, 'md:mb-20 text-3xl md:text-[48px]')}
+			>
 				гильдия.москва
 			</Link>
 			<div className='md:text-xl'>Художественный дизайн</div>
