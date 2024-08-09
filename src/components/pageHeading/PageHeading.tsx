@@ -14,7 +14,12 @@ const PageHeading = ({ title, background, className }: PageHeadingProps) => {
 			style={{ background: `${background}` }}
 		>
 			<main>
-				<h1 className='mt-[20vh] md:mt-[30svh] text-[54px] xl:text-[110px] font-normal uppercase text-right'>
+				<h1
+					className={cn(
+						'mt-[20vh] md:mt-[30svh] text-[54px] xl:text-[110px] font-normal uppercase text-right',
+						className
+					)}
+				>
 					{title}
 				</h1>
 			</main>
