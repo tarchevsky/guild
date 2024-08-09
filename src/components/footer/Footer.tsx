@@ -12,8 +12,8 @@ const Footer = () => {
 			>
 				гильдия.москва
 			</Link>
-			<div className='md:text-xl'>Художественный дизайн</div>
-			<Link href='tel:+79031700586' className='text-3xl py-4'>
+			<div className='text-[10px] md:text-xl'>Художественный дизайн</div>
+			<Link href='tel:+79031700586' className='text-[10px] md:text-3xl py-4'>
 				+7 903 170 05 86
 			</Link>
 			<Link href='mailto:guild.moscow@yandex.ru' className='md:text-xl'>
