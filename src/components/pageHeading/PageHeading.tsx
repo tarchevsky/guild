@@ -22,7 +22,7 @@ const PageHeading = ({
 			<main>
 				<h1
 					className={cn(
-						`mt-[20vh] md:mt-[30svh] text-[54px] xl:text-[110px] font-normal uppercase text-right ${titleMob ? 'hidden mb:block' : null}`,
+						`mt-[16vh] md:mt-[20svh] text-[54px] xl:text-[110px] font-normal uppercase text-right ${titleMob ? 'hidden mb:block' : null}`,
 						className
 					)}
 				>

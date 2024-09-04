@@ -25,7 +25,7 @@ const HeaderMini = () => {
 		<header
 			className={cn(
 				styles.header,
-				'relative flex flex-col justify-center md:justify-between items-center pt-[44px] md:pt-[66px] pb-[55px] md:pt-[76px] z-40'
+				'relative flex flex-col justify-center md:justify-between items-center pt-[35px] md:pt-[55px] pb-[45px] z-40'
 			)}
 		>
 			<FadeIn className='block'>
