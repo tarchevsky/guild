@@ -16,7 +16,11 @@ const ConsultationsPage: NextPage = () => {
 				title={title}
 				metaDesc='Страница про консультации. Здесь мы описываем алгоритм обращения к нам и получения консультаций'
 			/>
-			<PageHeading title={title} background={background} />
+			<PageHeading
+				title={title}
+				background={background}
+				titleMob='Консуль <br />тации'
+			/>
 			<FadeIn className='relative z-10 cont mt-[32svh] text-2xl xl:text-3xl 2xl:text-4xl xl:max-w-5xl'>
 				<p className='mb-10'>
 					Мы предоставляем услуги консультаций. Наши сотрудники готовы ответить
