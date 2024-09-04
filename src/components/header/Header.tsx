@@ -52,7 +52,7 @@ const Header = () => {
 				>
 					<ul
 						tabIndex={0}
-						className='absolute md:static menu flex-nowrap gap-2 md:gap-5 md:menu-horizontal md:justify-between md:w-full start-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 md:translate-y-0 md:translate-x-0'
+						className='absolute md:static menu flex-nowrap gap-0 md:gap-5 md:menu-horizontal md:justify-between md:w-full start-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 md:translate-y-0 md:translate-x-0'
 					>
 						<li
 							className={cn(
