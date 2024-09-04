@@ -12,7 +12,7 @@ const Hero = ({
 	src
 }: HeroProps) => {
 	return (
-		<main className='hero absolute left-0 top-0 w-full h-[100svh] z-10 mb-0'>
+		<main className='hero absolute left-0 top-0 w-full h-[150svh] md:h-[100svh] z-10 mb-0'>
 			<FadeIn className='hero-content relative h-full w-full max-w-full p-0'>
 				<Image
 					src={src}
