@@ -32,7 +32,7 @@ const Hero = ({
 					className='block md:hidden absolute top-0 left-0 w-full h-full object-cover object-center object-left'
 				/>
 				<h1
-					className='hidden md:block absolute top-1/2 -translate-y-1/2 md:right-20 cont md:p-0 font-normal md:leading-[120px] uppercase text-[54px] xl:text-[110px]'
+					className='hidden md:block absolute top-1/2 -translate-y-1/2 md:right-20 cont md:p-0 font-normal md:leading-[120px] uppercase text-[54px] lg:text-[110px]'
 					dangerouslySetInnerHTML={{
 						__html: title
 					}}
