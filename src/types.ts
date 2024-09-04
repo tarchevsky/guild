@@ -59,6 +59,7 @@ export interface FigureProps {
 
 export interface HeroProps {
 	title: string
+	titleMob: string
 	src: string
 	buttonText?: string
 	alt: string

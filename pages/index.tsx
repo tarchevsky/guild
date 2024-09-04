@@ -20,6 +20,7 @@ const HomePage: NextPage = () => {
 				src='/main-img.png'
 				alt='Альт картинки'
 				title='Искусство <br>в интерьер'
+				titleMob='Иску<br>сство <br>в <br>инте<br>рьер'
 			/>
 			<ModernHeading
 				title='Студия художественного дизайна <br /><span style="text-transform: uppercase;">гильдия.москва</span>'
