@@ -10,8 +10,9 @@
 
 .logo {
     font-family: 'Helvetica', sans-serif;
-    font-size: 48px;
-    font-weight: 400;
+    @apply text-4xl md:text-5xl;
+    //font-size: 48px;
+    font-weight: 500;
     font-style: normal;
     text-align: center;
     line-height: normal;
