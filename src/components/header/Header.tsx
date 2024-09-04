@@ -25,7 +25,7 @@ const Header = () => {
 		<header
 			className={cn(
 				styles.header,
-				'relative flex flex-col justify-center md:justify-between items-center py-[44px] sm:py-[66px] md:pt-[32px] md:pb-[18px] z-40'
+				'relative flex flex-col justify-center md:justify-between items-center py-[24px] sm:py-[66px] md:pt-[32px] md:pb-[18px] z-40'
 			)}
 		>
 			<FadeIn className='block md:hidden'>
