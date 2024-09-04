@@ -18,7 +18,9 @@ const HomePage: NextPage = () => {
 			/>
 			<Hero
 				src='/main-img.png'
-				alt='Альт картинки'
+				srcMob='/main-img-mob.png'
+				alt='Главная картинка на сайте guild.moscow'
+				altMob='Главная картинка на сайте guild.moscow - мобильная версия'
 				title='Искусство <br>в интерьер'
 				titleMob='Иску<br>сство <br>в <br>инте<br>рьер'
 			/>

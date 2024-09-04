@@ -61,8 +61,10 @@ export interface HeroProps {
 	title: string
 	titleMob: string
 	src: string
+	srcMob: string
 	buttonText?: string
 	alt: string
+	altMob: string
 	subtitle?: string
 }
 

@@ -2,14 +2,17 @@ import { HeroProps } from '@/types'
 import Image from 'next/image'
 import FadeIn from '@/components/fadeIn/FadeIn'
 import Link from 'next/link'
+import Button from '@/components/button/Button'
 
 const Hero = ({
 	title,
 	titleMob,
 	buttonText,
 	alt,
+	altMob,
 	subtitle,
-	src
+	src,
+	srcMob
 }: HeroProps) => {
 	return (
 		<main className='hero absolute left-0 top-0 w-full h-[150svh] md:h-[100svh] z-10 mb-0'>
@@ -19,7 +22,14 @@ const Hero = ({
 					alt={alt}
 					width={1200}
 					height={600}
-					className='absolute top-0 left-0 w-full h-full object-cover object-center'
+					className='hidden md:block absolute top-0 left-0 w-full h-full object-cover object-center object-left'
+				/>
+				<Image
+					src={srcMob}
+					alt={altMob}
+					width={1200}
+					height={600}
+					className='block md:hidden absolute top-0 left-0 w-full h-full object-cover object-center object-left'
 				/>
 				<h1
 					className='hidden md:block absolute top-1/2 -translate-y-1/2 md:right-20 cont md:p-0 font-normal md:leading-[120px] uppercase text-[54px] xl:text-[110px]'
@@ -51,6 +61,12 @@ const Hero = ({
 				>
 					7 (903) 170 05 86
 				</Link>
+				<Button
+					tag='link'
+					text='Маркет'
+					ariaLabel='Переход на страницу Маркет'
+					href='/market'
+				/>
 			</FadeIn>
 		</main>
 	)
