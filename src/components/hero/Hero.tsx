@@ -28,7 +28,7 @@ const Hero = ({
 					}}
 				/>
 				<h1
-					className='block md:hidden absolute top-1/2 -translate-y-1/2 md:right-20 cont md:p-0 font-normal md:leading-[120px] uppercase text-[54px] xl:text-[110px]'
+					className='block md:hidden absolute top-[25vh] right-4 p-0 font-normal leading-tight uppercase text-[60px]'
 					dangerouslySetInnerHTML={{
 						__html: titleMob
 					}}
