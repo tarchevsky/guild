@@ -35,7 +35,7 @@ const Header = () => {
 			</FadeIn>
 			<FadeIn className='hidden md:grid md:grid-cols-3 md:justify-between md:w-full'>
 				<Link href='mailto:guild.moscow@yandex.ru'>guild.moscow@yandex.ru</Link>
-				<Link href='/' className={cn(styles.logo, 'pt-[46px] pb-[35px]')}>
+				<Link href='/' className={cn(styles.logo, 'pt-[35px] pb-[25px]')}>
 					гильдия.москва
 				</Link>
 				<Link href='tel:+79031700586' className='justify-self-end'>
