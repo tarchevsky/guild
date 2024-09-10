@@ -51,13 +51,13 @@ const Hero = ({
 				) : null}
 				<Link
 					href='mailto:guild.moscow@yandex.ru'
-					className='hidden md:block absolute bottom-6 left-2 cont text-sm md:hidden'
+					className='hidden md:block absolute bottom-6 left-2 cont text-sm'
 				>
 					guild.moscow@yandex.ru
 				</Link>
 				<Link
 					href='tel:+79031700586'
-					className='hidden md:block absolute bottom-6 right-2 cont text-sm md:hidden'
+					className='hidden md:block absolute bottom-6 right-2 cont text-sm'
 				>
 					7 (903) 170 05 86
 				</Link>
