@@ -16,12 +16,17 @@ const Footer = () => {
 			<Link href='tel:+79031700586' className='text-[10px] md:text-3xl py-4'>
 				+7 903 170 05 86
 			</Link>
-			<Link href='mailto:guild.moscow@yandex.ru' className='md:text-xl'>
+			<Link
+				href='mailto:guild.moscow@yandex.ru'
+				className='text-[10px] md:text-xl'
+			>
 				guild.moscow@yandex.ru
 			</Link>
-			<div className='md:text-xl'>Москва, Проспект Мира 68</div>
+			<div className='text-[10px] md:text-xl'>Москва, Проспект Мира 68</div>
 			<aside>
-				<p>Copyright © 2024 - разработка tezis.digital</p>
+				<p className={'text-[10px]'}>
+					Copyright © 2024 - разработка tezis.digital
+				</p>
 			</aside>
 		</footer>
 	)
