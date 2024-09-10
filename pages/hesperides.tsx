@@ -12,7 +12,7 @@ const Hesperides: NextPage = () => {
 		<>
 			<Meta title={title} metaDesc='Страница проекта Сад гесперид' />
 			<PageHeading title={title} background={background} />
-			<FadeIn className='relative mt-[13svh] md:mt-[29.5svh]'>
+			<FadeIn className='relative mt-[15svh] md:mt-[29.5svh]'>
 				<Image
 					src='/hesperides-1.png'
 					alt='Первая картинка из портфолио для Hesperides'

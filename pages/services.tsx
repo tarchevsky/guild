@@ -16,7 +16,7 @@ const Services: NextPage = () => {
 				metaDesc='Здесь вы можете ознакомиться с нашими услугами'
 			/>
 			<PageHeading title={title} background={background} />
-			<FadeIn className='relative z-10 cont mt-[25svh] sm:mt-[13svh] md:mt-[29.5svh] xl:text-2xl'>
+			<FadeIn className='relative z-10 cont mt-[25svh] sm:mt-[15svh] md:mt-[29.5svh] xl:text-2xl'>
 				<ul className='flex flex-col gap-y-5 list-disc pl-7 pb-10'>
 					<li>
 						Дизайн-проект.

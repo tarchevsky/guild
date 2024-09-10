@@ -15,7 +15,7 @@ const Market: NextPage = () => {
 				metaDesc='Страница маркет, здесь можно найти нашу фирменную продукцию и перейти на страницу товара'
 			/>
 			<PageHeading title={title} background={background} />
-			<div className='flex flex-col items-center xl:grid xl:grid-cols-2 gap-10 relative mt-[13svh] md:mt-[29.5svh]'>
+			<div className='flex flex-col items-center xl:grid xl:grid-cols-2 gap-10 relative mt-[15svh] md:mt-[29.5svh]'>
 				<div>
 					<Figure
 						link='/mirror-one'

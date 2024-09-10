@@ -12,7 +12,7 @@ const EsterBar: NextPage = () => {
 		<>
 			<Meta title={title} metaDesc='Страница проекта Ester bar' />
 			<PageHeading title={title} background={background} />
-			<FadeIn className='relative mt-[13svh] md:mt-[29.5svh]'>
+			<FadeIn className='relative mt-[15svh] md:mt-[29.5svh]'>
 				<Image
 					src='/ester-bar-1.png'
 					alt='Первая картинка из портфолио для Linbistro'

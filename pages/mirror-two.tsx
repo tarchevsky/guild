@@ -14,7 +14,7 @@ const MirrorTwo: NextPage = () => {
 		<>
 			<Meta title={title} metaDesc='Страница товара Зеркало II' />
 			<PageHeading title={title} background={background} />
-			<div className='relative mt-[13svh] md:mt-[29.5svh] flex flex-col items-center'>
+			<div className='relative mt-[15svh] md:mt-[29.5svh] flex flex-col items-center'>
 				<div className='max-w-6xl'>
 					<Figure
 						src='/mirror-1.png'

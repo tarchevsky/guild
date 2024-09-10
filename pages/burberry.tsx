@@ -16,7 +16,7 @@ const Burberry: NextPage = () => {
 				background={background}
 				className='text-[30px] lg:text-[60px] xl:text-[90px] 3xl:text-[110px]'
 			/>
-			<FadeIn className='relative mt-[13svh] md:mt-[29.5svh]'>
+			<FadeIn className='relative mt-[15svh] md:mt-[29.5svh]'>
 				<Image
 					src='/burberry-1.png'
 					alt='Первая картинка из портфолио для Burberry шелкография'
