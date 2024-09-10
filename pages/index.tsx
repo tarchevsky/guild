@@ -40,7 +40,7 @@ const HomePage: NextPage = () => {
 				ariaLabel={'Переход на страницу маркета'}
 				background={'none'}
 				border={'2px solid #fff'}
-				text='Проекты'
+				text='Маркет'
 				className='flex md:hidden absolute z-10 -bottom-44 left-6 w-[110px] h-[30px] text-white'
 			/>
 			<ModernHeading
