@@ -20,7 +20,7 @@ const Figure = ({
 					rel='noopener noreferrer'
 					className={`${linkStyles}`}
 				>
-					<figure className={`${figureStyles}`}>
+					<figure {...(figureStyles && { className: figureStyles })}>
 						<Image
 							src={src}
 							alt={caption}
@@ -34,7 +34,7 @@ const Figure = ({
 					</figure>
 				</Link>
 			) : (
-				<figure className={`${figureStyles}`}>
+				<figure {...(figureStyles && { className: figureStyles })}>
 					<Image
 						src={src}
 						alt={caption}
