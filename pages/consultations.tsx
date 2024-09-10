@@ -6,6 +6,7 @@ import FadeIn from '@/components/fadeIn/FadeIn'
 import ContactForm from '@/components/contactForm/ContactForm'
 
 const title = 'Консультации'
+const titleMob = 'Консуль <br />тации'
 const background =
 	'linear-gradient(211deg, rgba(80, 39, 0, 0.70) 1.59%, #000 71.81%)'
 
