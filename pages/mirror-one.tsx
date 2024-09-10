@@ -14,15 +14,15 @@ const MirrorOne: NextPage = () => {
 		<>
 			<Meta title={title} metaDesc='Страница товара Зеркало I' />
 			<PageHeading title={title} background={background} />
-			<div className='relative mt-[15svh] md:mt-[29.5svh] flex flex-col items-center'>
+			<div className='relative mt-[15svh] xl:mt-[25svh] flex flex-col items-center'>
 				<div className='max-w-6xl'>
 					<Figure
 						src='/mirror-1.png'
 						caption='Зеркало I'
-						captionStyles='text-start'
-						imageStyles='w-[1083px] h-[1083px]'
+						captionStyles='cont md:p-0 text-start'
+						imageStyles='md:h-[1083px] md:w-[1083px]'
 					/>
-					<div>
+					<div className='cont md:p-0'>
 						70х50 см
 						<br />
 						Интерьерное зеркало для спальни или гостиной. Техника исполнения —
