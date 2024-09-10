@@ -16,7 +16,7 @@ const ImgText = ({
 		<FadeIn>
 			<Link
 				href={link}
-				className='block relative w-full h-[40svh] xl:h-[90svh] group'
+				className='block relative w-full h-[60svh] sm:h-[40svh] xl:h-[90svh] group'
 			>
 				<Image
 					src={src}
