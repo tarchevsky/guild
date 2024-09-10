@@ -43,7 +43,7 @@ const HeaderMini = () => {
 				>
 					<ul
 						tabIndex={0}
-						className='absolute menu flex-nowrap gap-5 start-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 '
+						className='absolute menu flex-nowrap gap-0 md:gap-5 start-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 '
 					>
 						<li
 							className={cn(
