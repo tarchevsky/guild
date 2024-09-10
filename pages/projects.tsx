@@ -13,7 +13,7 @@ const Projects: NextPage = () => {
 		<>
 			<Meta title={title} metaDesc='Страница с нашими проектами, портфолио.' />
 			<PageHeading title={title} background={background} className='h-[50vh]' />
-			<div className='relative z-10 mt-[13svh] md:mt-[29.5svh] text-2xl xl:text-3xl 2xl:text-4xl'>
+			<div className='relative z-10 mt-[13svh] md:mt-[29.5svh] xl:text-2xl'>
 				<MapContent projectsData={projectsData} />
 			</div>
 		</>

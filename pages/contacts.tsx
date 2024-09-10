@@ -25,7 +25,7 @@ const Contacts: NextPage = () => {
 		<>
 			<Meta title={title} metaDesc='Описание страницы контактов' />
 			<PageHeading title={title} background={background} />
-			<FadeIn className='relative z-10 cont mt-[13svh] md:mt-[29.5svh] text-2xl xl:text-3xl 2xl:text-4xl'>
+			<FadeIn className='relative z-10 cont mt-[13svh] md:mt-[29.5svh] xl:text-2xl'>
 				<p className='mb-10'>
 					Тг: <Link href='t.me/guild.moscow'>t.me/guild.moscow</Link>
 				</p>

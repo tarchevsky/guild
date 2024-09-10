@@ -18,7 +18,7 @@ const ConsultationsPage: NextPage = () => {
 				metaDesc='Страница про консультации. Здесь мы описываем алгоритм обращения к нам и получения консультаций'
 			/>
 			<PageHeading title={title} background={background} titleMob={titleMob} />
-			<FadeIn className='relative z-10 cont mt-[32svh] text-2xl xl:text-3xl 2xl:text-4xl xl:max-w-5xl'>
+			<FadeIn className='relative z-10 cont mt-[32svh] xl:text-2xl xl:max-w-5xl'>
 				<p className='mb-10'>
 					Мы предоставляем услуги консультаций. Наши сотрудники готовы ответить
 					на любые Ваши вопросы, связанные с искусством и дизайном
