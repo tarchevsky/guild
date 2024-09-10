@@ -1,6 +1,7 @@
 .active {
     opacity: 1;
     @apply bg-base-100;
+    @apply rounded-[100%] md:rounded-none;
     transform: translateY(0);
 
     .item {
