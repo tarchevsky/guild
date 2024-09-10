@@ -29,7 +29,8 @@ export interface ButtonProps {
 // ModernBtn.tsx
 
 export interface ModernBtnProps extends ButtonProps {
-	background: string
+	background?: string
+	border?: string
 }
 
 // MainLayout.tsx, SecondaryLayout.tsx, RegularLayout.tsx + FadeIn.tsx

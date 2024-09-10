@@ -5,6 +5,7 @@ import Meta from '@/components/meta/Meta'
 import Image from 'next/image'
 import ModernHeading from '@/components/modernHeading/ModernHeading'
 import Button from '@/components/button/Button'
+import ModernBtn from '@/components/modernBtn/ModernBtn'
 
 const title = 'Главная'
 const metaDesc = 'Описание страницы'
@@ -23,6 +24,24 @@ const HomePage: NextPage = () => {
 				altMob='Главная картинка на сайте guild.moscow - мобильная версия'
 				title='Искусство <br>в интерьер'
 				titleMob='Иску<br>сство <br>в <br>инте<br>рьер'
+			/>
+			<ModernBtn
+				tag='link'
+				href='/projects'
+				ariaLabel={'Переход на страницу проектов'}
+				background={'none'}
+				border={'2px solid #fff'}
+				text='Проекты'
+				className='flex md:hidden absolute z-10 bottom-0 right-6 w-[180px] h-[80px] text-white'
+			/>
+			<ModernBtn
+				tag='link'
+				href='/market'
+				ariaLabel={'Переход на страницу маркета'}
+				background={'none'}
+				border={'2px solid #fff'}
+				text='Проекты'
+				className='flex md:hidden absolute z-10 -bottom-44 left-6 w-[180px] h-[80px] text-white'
 			/>
 			<ModernHeading
 				title='Студия художественного дизайна <br /><span style="text-transform: uppercase;">гильдия.москва</span>'

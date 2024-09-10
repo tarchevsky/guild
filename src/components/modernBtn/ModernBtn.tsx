@@ -15,6 +15,7 @@ const ModernBtn = ({
 	type,
 	className,
 	background,
+	border,
 	modalContent
 }: ModernBtnProps) => {
 	const modalRef = useRef<ModalHandle>(null)
@@ -36,7 +37,7 @@ const ModernBtn = ({
 						'btn self-start md:self-end w-[200px] h-[90px] md:w-[400px] md:h-[170px] 2xl:w-[580px] 2xl:h-[250px] text-sm md:text-xl 2xl:text-[40px]',
 						className
 					)}
-					style={{ background }}
+					style={{ background, border }}
 					dangerouslySetInnerHTML={{
 						__html: text
 					}}
@@ -54,7 +55,7 @@ const ModernBtn = ({
 								'btn self-start md:self-end w-[200px] h-[90px] md:w-[400px] md:h-[170px] 2xl:w-[580px] 2xl:h-[250px] text-sm md:text-xl 2xl:text-[40px]',
 								className
 							)}
-							style={{ background }}
+							style={{ background, border }}
 							dangerouslySetInnerHTML={{
 								__html: text
 							}}
