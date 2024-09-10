@@ -35,7 +35,7 @@ const ImgText = ({
 				>
 					{description}
 				</p>
-				<h3 className='absolute bottom-4 xl:bottom-16 right-4 xl:right-16 text-[54px] xl:text-[110px] font-normal text-right'>
+				<h3 className='absolute bottom-4 xl:bottom-16 right-4 xl:right-16 text-[34px] md:text-[54px] xl:text-[110px] font-normal text-right'>
 					{projectName}
 				</h3>
 			</Link>
