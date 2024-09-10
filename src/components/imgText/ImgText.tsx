@@ -30,7 +30,7 @@ const ImgText = ({
 				/>
 				<p
 					className={cn(
-						'cont absolute top-4 xl:top-10 xl:opacity-0 text-sm md:text-xl xl:text-2xl transition delay-100 ease-in xl:group-hover:opacity-100'
+						'cont hidden md:block absolute top-4 xl:top-10 xl:opacity-0 text-sm md:text-xl xl:text-2xl transition delay-100 ease-in xl:group-hover:opacity-100'
 					)}
 				>
 					{description}
