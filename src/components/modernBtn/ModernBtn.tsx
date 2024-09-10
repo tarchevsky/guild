@@ -33,7 +33,7 @@ const ModernBtn = ({
 					aria-label={ariaLabel}
 					className={cn(
 						styles.btn,
-						'btn self-start md:self-end w-[200px] h-[100px] md:w-[400px] md:h-[170px] 2xl:w-[580px] 2xl:h-[250px] text-sm md:text-xl 2xl:text-[40px]',
+						'btn self-start md:self-end w-[200px] h-[90px] md:w-[400px] md:h-[170px] 2xl:w-[580px] 2xl:h-[250px] text-sm md:text-xl 2xl:text-[40px]',
 						className
 					)}
 					style={{ background }}
@@ -51,7 +51,7 @@ const ModernBtn = ({
 							aria-label={ariaLabel}
 							className={cn(
 								styles.btn,
-								'btn self-start md:self-end w-[200px] h-[100px] md:w-[400px] md:h-[170px] 2xl:w-[580px] 2xl:h-[250px] text-sm md:text-xl 2xl:text-[40px]',
+								'btn self-start md:self-end w-[200px] h-[90px] md:w-[400px] md:h-[170px] 2xl:w-[580px] 2xl:h-[250px] text-sm md:text-xl 2xl:text-[40px]',
 								className
 							)}
 							style={{ background }}
