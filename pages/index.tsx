@@ -32,7 +32,7 @@ const HomePage: NextPage = () => {
 				background={'none'}
 				border={'2px solid #fff'}
 				text='Проекты'
-				className='flex md:hidden absolute z-10 -bottom-16 right-6 w-[110px] h-[30px] text-white'
+				className='flex md:hidden absolute z-10 -bottom-24 right-6 w-[110px] h-[30px] text-white'
 			/>
 			<ModernBtn
 				tag='link'
@@ -41,7 +41,7 @@ const HomePage: NextPage = () => {
 				background={'none'}
 				border={'2px solid #fff'}
 				text='Маркет'
-				className='flex md:hidden absolute z-10 -bottom-52 left-6 w-[110px] h-[30px] text-white'
+				className='flex md:hidden absolute z-10 -bottom-56 left-6 w-[110px] h-[30px] text-white'
 			/>
 			<ModernHeading
 				title='Студия художественного дизайна <br /><span style="text-transform: uppercase;">гильдия.москва</span>'
