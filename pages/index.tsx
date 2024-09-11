@@ -48,7 +48,7 @@ const HomePage: NextPage = () => {
 				subTitle='“Ester bar” Большая Никитская 22/2'
 			/>
 
-			<FadeIn className='cont pb-8'>
+			<FadeIn className='relative cont pb-8 z-10'>
 				<p>
 					Студия художественного дизайна guild.moscow – сочетание искусства и
 					дизайна. Наши специалисты изучат ваш объект, и подберут художественное
