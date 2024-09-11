@@ -28,7 +28,9 @@ const Figure = ({
 							height={1200}
 							className={`object-contain hover:brightness-90 transition-all ease-in-out ${imageStyles}`}
 						/>
-						<figcaption className={`text-center text-4xl ${captionStyles}`}>
+						<figcaption
+							className={`text-center text-xl md:text-4xl ${captionStyles}`}
+						>
 							{caption}
 						</figcaption>
 					</figure>
@@ -42,7 +44,9 @@ const Figure = ({
 						height={1200}
 						className={`object-contain hover:brightness-90 transition-all ease-in-out ${imageStyles}`}
 					/>
-					<figcaption className={`text-center text-4xl ${captionStyles}`}>
+					<figcaption
+						className={`text-center text-xl md:text-4xl ${captionStyles}`}
+					>
 						{caption}
 					</figcaption>
 				</figure>

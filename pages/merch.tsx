@@ -19,10 +19,10 @@ const Merch: NextPage = () => {
 					<Figure
 						src='/merch-1.png'
 						caption='Мерч'
-						captionStyles='cont md:p-0 text-start'
+						captionStyles='cont md:p-0 md:text-start'
 						imageStyles='md:h-[1083px] md:w-[1083px]'
 					/>
-					<div className='cont md:p-0'>
+					<div className='cont md:p-0 text-center md:text-left'>
 						Gildan hammer L / cropped
 						<br />
 						Шелкография
