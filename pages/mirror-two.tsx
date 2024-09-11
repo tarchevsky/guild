@@ -17,7 +17,7 @@ const MirrorTwo: NextPage = () => {
 			<div className='relative mt-[15svh] xl:mt-[25svh] flex flex-col items-center'>
 				<div className='max-w-6xl'>
 					<Figure
-						src='/mirror-1.png'
+						src='/mirror-2.png'
 						caption='Зеркало II'
 						captionStyles='cont md:p-0 text-start'
 						imageStyles='md:h-[1083px] md:w-[1083px]'
