@@ -22,7 +22,7 @@ const PageHeading = ({
 			<main>
 				<h1
 					className={cn(
-						`mt-[20vh] md:mt-[20svh] text-[34px] sm:text-[54px] xl:text-[110px] font-normal uppercase text-right ${titleMob ? 'hidden md:block' : null}`,
+						`mt-[24vh] md:mt-[20svh] text-[34px] sm:text-[54px] xl:text-[110px] font-normal uppercase text-right ${titleMob ? 'hidden md:block' : null}`,
 						className
 					)}
 				>
@@ -32,7 +32,7 @@ const PageHeading = ({
 				{titleMob ? (
 					<h1
 						className={cn(
-							'block md:hidden mt-[20vh] md:mt-[30svh] text-[34px] sm:text-[54px] xl:text-[110px] font-normal uppercase text-right',
+							'block md:hidden mt-[24vh] md:mt-[30svh] text-[34px] sm:text-[54px] xl:text-[110px] font-normal uppercase text-right',
 							className
 						)}
 						dangerouslySetInnerHTML={{
